@@ -1,0 +1,205 @@
+body {
+  background-image: url(https://c1.wallpaperflare.com/preview/630/173/311/ball-background-abstract-decoration.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#gesture {
+  margin-top: 6%;
+  position: absolute;
+  transform: translate(0%, 0%);
+  width: 225px;
+  height: 225px;
+  z-index: 2;
+  left: 44%;
+  top: 37%;
+  mix-blend-mode: multiply;
+}
+
+.two {
+  background-color: rgb(156, 156, 156);
+  color: white;
+  font-size: 30px;
+  border-width: 8px;
+  border-color: rgb(255, 255, 255);
+  border-radius: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: absolute;
+  transform: translate(0%, -0%);
+  z-index: 2;
+  left: 50px;
+  top: 99px;
+}
+
+.text {
+  margin-left: 10%;
+ margin-top: 8%;
+  color: white;
+  font-size: 40px;
+}
+
+.text2 {
+margin-left: 2%;
+  color: white;
+  font-size: 30px;
+}
+.fail1 {
+ 
+  color: white;
+  
+  font-size: 100px;
+  text-align: center;
+}
+
+.fail2 {
+  text-align: center;
+  color: white;
+ 
+  font-size: 100px;
+}
+
+.fail-text {
+  margin-top: 7%;
+  text-align: center;
+  color: white;
+  font-size: 60px;
+}
+
+.fail-image {
+ margin:0 auto;
+ display:block;
+  margin-top: 10%;
+  border-radius: 4px;
+  padding: 5px;
+  width: 200px;
+}
+
+.success-icon {
+  position: absolute;
+  transform: translate(0%, 0%);
+  z-index: 2;
+  left: 45%;
+  top: 20%;
+  border-radius: 4px;
+  padding: 5px;
+  width: 200px;
+}
+.success1 {
+  text-align: center;
+  color: white;
+  margin-top: 25%;
+  font-size: 100px;
+}
+
+.success2 {
+  text-align: center;
+  color: white;
+  font-size: 100px;
+}
+
+.data-stored {
+  position: absolute;
+  color: white;
+  bottom: 35%;
+  left: 25%;
+  font-size: 70px;
+}
+
+.loading {
+  position: absolute;
+  transform: translate(0%, 0%);
+  z-index: 2;
+  left: 40%;
+  top: 40%;
+}
+
+.button-stop {
+  background-color: gray;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 26px;
+  padding-right: 26px;
+  margin:0 auto;
+  display:block;
+ margin-bottom: 10%;
+}
+.button-retry {
+  background-color: gray;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 26px;
+  padding-right: 26px;
+  margin:0 auto;
+  display:block;
+  margin-top: 10%;
+}
+
+.button-retry:hover {
+  opacity: 0.8;
+  outline: none;
+ 
+}
+
+
+
+.button-stop:hover {
+  opacity: 0.8;
+  outline: none;
+}
+
+.button-start {
+  background-color: gray;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 8px;
+  margin-left: 20px;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 26px;
+  padding-right: 26px;
+  transition: opacity 0.15s;
+  vertical-align: top;
+  position: absolute;
+  top: 90%;
+  left: 45%;
+}
+
+.button-start:hover {
+  opacity: 0.8;
+  outline: none;
+}
+
+.button-next{
+  margin: 0 auto;
+  display: block;
+  font-size: larger;
+  color: aliceblue;
+  margin: 0 auto; /*for image*/
+  display: block; /*for image*/
+  border-width: 15px;
+  border-radius: 5%;
+  border-color: aqua;
+  background-color: black;
+}

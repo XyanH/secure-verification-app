@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Verification 1</title>
+    <link rel="icon" type="image/jpg" href="image/icon.png">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    
+      <pre><small class="form-text text-muted" style="font-size: 30px; color: white;"> 
+        You will be given a randomly generated word.We will record your voice within 5 seconds.
+        Relax and read it aloud.
+      </small>
+
+      <img src="https://as2.ftcdn.net/v2/jpg/06/20/37/29/1000_F_620372953_sT8I13OmaSTSeu1BS8ECdNcBKd26Ibwc.jpg" height="300" style="margin:0 auto;display:block; transform: scaleX(-1);">
+          <div class="mb-3">
+          <h4 style="text-align: center;font-size: 30px;">Record Your Voice :</h4>
+          <label for="voice" class="form-label"
+          >Read the Following Words Aloud</label
+        >
+        <p><strong id="randomWords">hello world</strong></p>
+          </div> 
+
+    </form>
+
+    
+      <button id="recordVoice" style="cursor: pointer">Start Recording</button>
+      <button id="stopRecording" disabled>Stop Recording</button>
+    </a>
+    <script>
+    document.getElementById('recordVoice').addEventListener('click', () => {
+      window.location.href = 'voice3.html';
+    });</script>
+</body>
+</html>

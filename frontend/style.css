@@ -1,0 +1,68 @@
+body {
+  background-image: url(https://c1.wallpaperflare.com/preview/630/173/311/ball-background-abstract-decoration.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+}
+.header {
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  color: white;
+}
+.pagination {
+  position: fixed;
+  bottom: 20px;
+  left: 45%;
+  display: flex;
+  justify-content: center;
+}
+.pagination a {
+  /*pagination class,any a element found in this class*/
+  color: white;
+  text-decoration: none;
+  padding: 8px 15px;
+  display: inline-block;
+}
+.pagination a.active {
+  /*paginatination class,find that a element is active*/
+  background-color: aqua;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.pagination a:hover:not(.active) {
+  background-color: gray;
+  border-radius: 5px;
+}
+button {
+  font-size: larger;
+  color: aliceblue;
+  margin: 0 auto; /*for image*/
+  display: block; /*for image*/
+  border-width: 20px;
+  border-radius: 5%;
+  border-color: aqua;
+  background-color: black;
+}
+#reg {
+  font-size: larger;
+  color: aliceblue;
+
+  background-color: aqua;
+}
+
+img {
+  margin: 0 auto; /*for image*/
+  display: block; /*for image*/
+}
+.btn {
+  border-width: 20px;
+  cursor: pointer;
+}
+.mb-4 {
+  color: aliceblue;
+  text-align: center;
+}
